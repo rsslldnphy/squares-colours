@@ -1,0 +1,35 @@
+html, body, * {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+html, body {
+  height: 100%; }
+
+.overlays-container {
+  position: relative; }
+
+.blocks-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 1000; }
+
+.heading-overlay {
+  position: absolute;
+  top: calc(50vh - 130px);
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  font-family: sans-serif;
+  pointer-events: none;
+  z-index: 1500;
+  color: white; }
+
+.block {
+  cursor: pointer;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: left;
+  z-index: 1000; }
